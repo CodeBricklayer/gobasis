@@ -1,4 +1,4 @@
-package main
+package gobyexample
 
 import "fmt"
 
@@ -40,7 +40,7 @@ func main() {
 	fmt.Println("dcl", t)
 
 	//Slices can be composed into multi-dimensional data structures. The length of the inner slices can vary, unlike with multi-dimensional arrays.
-	twoD := make([][] int, 3)
+	twoD := make([][]int, 3)
 	for i := 0; i < 3; i++ {
 		innerLen := i + 1
 		twoD[i] = make([]int, innerLen)
