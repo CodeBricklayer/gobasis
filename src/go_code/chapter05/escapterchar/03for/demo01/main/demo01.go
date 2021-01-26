@@ -16,12 +16,9 @@ func main() {
 	}
 
 	//for循环的第3种写法
-	for {
+	for { //等价于 for ; ; {
 		fmt.Println("你好啊!!!!!")
 		break
 	}
-	for {
-		fmt.Println("你好啊!!!!!")
-		break
-	}
+
 }
